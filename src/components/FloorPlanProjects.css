@@ -1,0 +1,32 @@
+ /* 🌟 Container with Grid */
+.containers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    gap: 40px;
+    max-width: 650px;
+    margin: auto;
+    padding: 50px;
+  }
+  
+  /* 🌟 Individual Box */
+  .box1 {
+    width: 80%; /* Auto-adjust based on grid */
+    height: 120px;
+    border: 2px solid white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* 🌟 Image Styling */
+  .box-image1 {
+    width: 100%;
+    height: 80px;
+    object-fit: contain;
+}

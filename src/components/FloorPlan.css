@@ -1,0 +1,140 @@
+ /* ConstructionWebsite.css */
+ .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: black;
+  }
+  
+  .hero-content {
+    max-width: 500px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #bb2649;
+  }
+  
+  p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-family: 'Verdana', sans-serif;
+    color: #fff;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .btn {
+    padding: 10px 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-btn {
+    background-color: #bb2649;
+    color: #fff;
+  }
+  .quote-btn {
+    background-color: #bb2649;
+    color: #fff;
+    border: 1px solid #000;
+  }
+  .hero-image img {
+    width: 100%;
+    height: 350px;
+  }
+  .homes-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    flex-direction: column;
+  }
+  .homes-text h2{
+    display: block;
+    color: #bb2649;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .main-content{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .main-content img{
+    width: 35%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 0px !important;
+    border: 1px solid black !important;
+  
+  }
+  .btn-2{
+    margin-top: 30px;
+    padding: 8px 10px;
+    background-color: #bb2649;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .details h2{
+     padding-top: 50px;
+     text-align: center;
+     font-weight: bold;
+     font-size: 30px;
+     color: #fff;
+  }
+  .details span{
+    color: #bb2649;
+  }
+   /* 🌟 Container with Grid */
+   .containers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    gap: 40px;
+    max-width: 650px;
+    margin: auto;
+    padding: 50px;
+  }
+  
+  /* 🌟 Individual Box */
+  .box1 {
+    width: 80%; /* Auto-adjust based on grid */
+    height: 120px;
+    border: 2px solid white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* 🌟 Image Styling */
+  .box-image1 {
+    width: 100%;
+    height: 80px;
+    object-fit: contain;
+  }
+  .box1 p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}

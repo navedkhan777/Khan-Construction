@@ -1,0 +1,26 @@
+.banner {
+    background: linear-gradient(to right, #5ee7df, #2193b0);
+    overflow: hidden;
+    transform: rotate(-3deg);
+    padding: 5px 0;
+    margin-top: 10px;
+    white-space: nowrap;
+  }
+  
+  .banner-track {
+    display: inline-block;
+    animation: scroll 30s linear infinite;
+    font-size: 13px;
+    font-family: 'Orbitron', sans-serif;
+    color: #000;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
