@@ -17,10 +17,12 @@ export default function Navbar() {
     setOpenDropdown(openDropdown === menu ? null : menu);
   };
 
-  // Contact page par navigate karne wala function
-  const handleOnClick = () => {
+     const handleOnClick = () => {
     navigate("/Login");
+    setMenuOpen(false);
+    setOpenDropdown(null);
   };
+
 
   const handleSignupClick = () => {
     navigate("/Signup");
@@ -58,7 +60,7 @@ export default function Navbar() {
         {menuOpen && (
           <div className='sm:hidden absolute top-14 left-0 w-full bg-white z-50 flex flex-col px-5 py-4 space-y-3 text-base font-medium text-gray-800 rounded-b-lg transition-all duration-300 ease-in-out'>
             <Link to="/" onClick={() => setMenuOpen(false)} className="hover:text-blue-600 cursor-pointer">Home</Link>
-            <Link to="/" onClick={() => setMenuOpen(false)} className="hover:text-blue-600 cursor-pointer">About Us</Link>
+            <Link to="/about" onClick={() => setMenuOpen(false)} className="hover:text-blue-600 cursor-pointer">About Us</Link>
 
             {/* Services dropdown (Mobile) */}
             <div className='dropdown dropdown-mobile'>
@@ -92,7 +94,7 @@ export default function Navbar() {
                 </div>
               )}
              </div>
-              <Link to="/" onClick={() => setMenuOpen(false)} className="hover:text-blue-600 cursor-pointer">Contact Us</Link>
+              <Link to="/contact" onClick={() => setMenuOpen(false)} className="hover:text-blue-600 cursor-pointer">Contact Us</Link>
 
 
             {/* Divider */}
@@ -100,7 +102,7 @@ export default function Navbar() {
 
             {/* Login and Signup Buttons (Mobile) */}
             <button className="w-full border-black px-3 py-2 rounded text-sm text-left hover:bg-gray-100 transition" onClick={handleOnClick}>Login</button>            
-            <button className="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:to-blue-600 text-white font-semibold px-4 py-2 rounded-full shadow-md hover:shadow-lg transition-all cursor-pointer">Sign up</button>
+            <button onClick={handleSignupClick} className="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:to-blue-600 text-white font-semibold px-4 py-2 rounded-full shadow-md hover:shadow-lg transition-all cursor-pointer" >Sign up</button>
           </div>
         )}
 
