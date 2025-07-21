@@ -21,6 +21,8 @@ import ScrollingBanner from "./components/SrollingBanner";
 import Videos from "./components/Videos";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
+import Chatbot from "./components/Chatbot";
+
 
 function App() {
   return (
@@ -47,6 +49,7 @@ function App() {
           <Route path="services/interior" element={<InteriorDesign />} />
           <Route path="Login" element={<Login/>}/>
           <Route path="Signup" element={<Signup/>}/>
+          <Route path="Chatbot" element={<Chatbot/>}/>
        {/*<Route
             path="projects/construction"
             element={<ConstructionProjects />}
