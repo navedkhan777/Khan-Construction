@@ -72,7 +72,7 @@ const OurDetailedConstruction = () => {
         {/* 🔼 Absolute Text on Top */}
         <div className="absolute inset-0 flex flex-col items-start justify-start text-left px-6 md:px-24 pt-50">
           <h2 className="text-4xl md:text-7xl font-bold text-white mb-4">
-            Khan's Blueprint <br />for Beautiful Living !
+            Khan's Blueprint <br />for Beautiful Living!
           </h2>
           <p className="text-white text-sm md:text-lg max-w-3xlx">
             One initial step in home construction is floor planning. Floor planning is like a sketch<br />
