@@ -208,8 +208,8 @@ const OurDetailedConstruction = () => {
           </h2>
           <p className="text-white text-sm md:text-lg max-w-3xlx">
             Have you ever heard people saying ‘first impression matters’? Well, that’s true for<br />
-            homes too. Design your home elevation with Indore’s some of the skilled home<br />
-            elevation design producers. Contact Samasthiti Constructions now!
+            homes too. Design your home elevation with Ujjain some of the skilled home<br />
+            elevation design producers. Contact Khan Constructions now!
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <button className="bg-black text-white px-6 py-3 rounded hover:bg-gray-800 transition cursor-pointer">

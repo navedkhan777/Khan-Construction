@@ -31,13 +31,13 @@ const OurDetailedConstruction = () => {
 
         {/* 🔼 Absolute Text on Top */}
         <div className="absolute inset-0 flex flex-col items-start justify-start text-left px-6 md:px-24 pt-50">
-          <h2 className="text-4xl md:text-7xl font-bold mb-4">
+          <h2 className="text-4xl md:text-7xl font-bold mb-4 text-white">
             Building the<br /> Homes of Future
           </h2>
-          <p className="text-sm md:text-lg max-w-3xlx">
-            Well, you have come to the right place. Samasthiti constructions<br /> is a reputed name
-            in the Indore city with its beautifully constructed<br /> homes and well designed architecture.
-            At Samasthiti, we aim to<br /> elevate not just your homes but your comfort of living!
+          <p className="text-sm text-white md:text-lg max-w-3xlx sm:text-black">
+            Well, you have come to the right place. Khan constructions<br /> is a reputed name
+            in the Ujjain city with its beautifully constructed<br /> homes and well designed architecture.
+            At Khan, we aim to<br /> elevate not just your homes but your comfort of living!
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <button className="bg-black text-white px-6 py-3 rounded hover:bg-gray-800 transition cursor-pointer">

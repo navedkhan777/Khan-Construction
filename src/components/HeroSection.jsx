@@ -32,8 +32,8 @@ const HeroSection = () => {
 
       {/* Text content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4 py-20 md:py-24 lg:py-32 space-y-4">
-        <h1 className="text-xl md:text-2xl font-bold">{heroContent.title}</h1>
-        <p className="text-3xl md:text-6xl font-bold">{heroContent.Subtitle}</p>
+        <h1 className="text-xl md:text-2xl font-bold text-white">{heroContent.title}</h1>
+        <p className="text-4xl md:text-6xl font-bold">{heroContent.Subtitle}</p>
 
         <div className="max-w-xl text-xs md:text-sm leading-relaxed space-y-1 text-white">
           {heroContent.description.map((line, index) => (

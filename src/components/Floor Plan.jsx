@@ -77,7 +77,7 @@ const OurDetailedConstruction = () => {
           <p className="text-white text-sm md:text-lg max-w-3xlx">
             One initial step in home construction is floor planning. Floor planning is like a sketch<br />
             of your home viewed from a bird’s eye. It’s a scale drawing of a home viewed from<br />
-            above. So, if you are looking for floor planning services in Indore, Samasthiti has got<br />
+            above. So, if you are looking for floor planning services in Ujjian, Khan has got<br />
             some skilled hands & creative minds!
           </p>
           <div className="mt-10 flex flex-wrap gap-4">

@@ -75,24 +75,14 @@ const OurDetailedConstruction = () => {
             We are Designing <br />
             Interiors in Ujjain!
           </h2>
-          <p className="text-white text-sm md:text-lg max-w-3xlx">
+           <p className="text-white text-sm md:text-lg max-w-3xlx">
             First impressions matter, but what lasts is what’s inside. At
-            Samasthiti Constructions, we
+            Khan Constructions, we
             <br />
             focus on the interiors of your home with our creative team of
-            interior designers in Indore.
+            interior designers in Ujjain.
             <br />
-            We are not just any interior designers in Indore; we are a team of
-            qualified and innovative
-            <br />
-            professionals, elevating home interiors across the city. If you’re
-            looking for top-notch
-            <br />
-            interior designing services in Indore, Samasthiti is your perfect
-            choice! Connect with us
-            <br />
-            for all your interior designing needs and experience the
-            difference.
+            elevation design producers. Contact Khan Constructions now!
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <button className="bg-black text-white px-6 py-3 rounded hover:bg-gray-800 transition cursor-pointer">

@@ -24,7 +24,7 @@ function Videos() {
     <p className="text-gray-700 text-lg sm:text-xl leading-relaxed">
       Now that you have reached so far scrolling, I would like this
       opportunity to discuss your home & building needs. Be it
-      construction, designing, or planning, Samasthiti Constructions has
+      construction, designing, or planning, Khan Constructions has
       got name as a reputed construction company in Indore. With a smile
       and dignity, we are happy to have built homes that offer comfort
       spaces. With such expertise and vision, we’re eager to hear about
